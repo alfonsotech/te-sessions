@@ -1,0 +1,90 @@
+// Primitive Data Types
+//string
+//"ajdkhf 234839530 ####"
+//'kd9trihfnda'
+
+// numbers
+//positive or negative
+//whole or decimals
+// 0 , -0
+// NaN
+
+//booleans - true or false
+
+//undefined
+
+//null
+
+//Data Structures
+//let
+//const
+
+const myName = "Mona";
+console.log("name", myName);
+myName = "roger";
+console.log("name", myName);
+
+// Operators
+//Arithmetic + - / * %
+//Comparison 
+// == === != !=== > < =< >=
+5 == '5' // true // underlying value
+5 === '5' // value and typeof false
+let animal; //undefined
+animal == undefined //true
+animal === undefined // false
+
+//Logical 
+// && And
+//  || Or
+// ! Bang
+// !true // false
+// !!1 // true 
+
+//Conditionals - Program Flow
+if(person is over 18) {
+ then they can vote
+}
+
+if() {
+
+} else {
+
+}
+
+
+if() {
+
+} else if() {
+
+} else if() {
+
+} else {
+
+}
+
+// switch statment
+
+myFunction()
+//Function Declaration
+function myFunction() {
+    //what happens script
+}
+myFunction()
+myFunction()
+myFunction()
+
+
+
+myFuncExpression() //error undefined
+// Function Expression
+const myFuncExpression = function() {
+
+}
+myFuncExpression()
+
+//Hoisting
+
+We reviewed primitive data types, let and const variables, conditional structures, functions declarations and expressions,discussed hoisting, operators (arithmetic, comparison, logical), and build a simple calculator function. 
+
+Next session: string properties, manipulating strings, number properties, typeof keyword, type coersion, arrays and simple array methods. 

@@ -1,0 +1,99 @@
+Problem 1: Grade Calculator
+
+Write a JavaScript program that calculates the grade for a student based on their score. The program should take the student's score as input and output the corresponding grade according to the following criteria:
+
+If the score is greater than or equal to 90, the grade is "A".
+If the score is between 80 and 89 (inclusive), the grade is "B".
+If the score is between 70 and 79 (inclusive), the grade is "C".
+If the score is between 60 and 69 (inclusive), the grade is "D".
+If the score is less than 60, the grade is "F".
+
+Problem 2: Vowel Counter
+
+Write a JavaScript program that takes a string as input and counts the number of vowels (a, e, i, o, u) in the string. The program should have the following features:
+
+A function that takes a string as an argument and returns the count of vowels in the string.
+Use an array to store the vowels and loop through the string to count the occurrences of each vowel.
+Implement the function using both function declaration and arrow function syntax.
+Use conditional statements (if, else if, else) to handle different cases, such as an empty string or a string with no vowels.
+Use array methods like push(), pop(), shift(), unshift(), slice(), splice(), and indexOf() to manipulate the array of vowels.
+
+Problem3 : Book Management System
+
+Create a JavaScript program that simulates a simple book management system. The program should have the following features:
+
+Define an object called book with properties such as title, author, pages, and isAvailable (a boolean indicating whether the book is available or not).
+Use dot notation to access and modify the properties of the book object.
+Create a getter method to retrieve the book's availability status.
+Create a setter method to update the book's availability status.
+Create a method to calculate the estimated reading time based on the number of pages (assume an average reading speed of 30 pages per hour).
+Create a function that takes a book object as an argument and updates its properties (e.g., change the author's name, increase the number of pages).
+Demonstrate the concept of passing immutable values (e.g., numbers, strings, booleans) by value and mutable values (e.g., objects, arrays) by reference.
+
+
+Problem 4: Number Guessing Game
+
+The game will choose a random number between 1 and 100, and the player will have 10 turns to guess the number. After each turn, the player will be told if their guess was too high or too low. The game will also keep track of the player's previous guesses. When the game ends, the player will be given the option to start a new game.
+
+Here are the steps to implement the game:
+
+Set up the game:
+
+Generate a random number between 1 and 100 and store it in a variable.
+Initialize a variable to keep track of the number of turns (e.g., numTurns = 10).
+Create an empty array to store the player's previous guesses.
+Game loop:
+
+Create a loop that runs until the player has used up all their turns or guessed the correct number.
+Inside the loop:
+Prompt the player to enter their guess.
+Check if the guess is equal to the random number:
+If it is, display a message saying they guessed correctly and break out of the loop.
+If the guess is lower than the random number, display a message saying their guess was too low.
+If the guess is higher than the random number, display a message saying their guess was too high.
+Add the player's guess to the array of previous guesses.
+Display the array of previous guesses.
+Decrement the number of turns remaining.
+End of game:
+
+If the player used up all their turns without guessing the correct number, display a message saying they ran out of turns and reveal the correct number.
+Ask the player if they want to play again.
+If they say yes, reset the game and start over from step 1.
+If they say no, end the game.
+
+
+Here's some pseudocode to help you get started:
+
+Set a random number between 1 and 100
+Set the number of turns to 10
+Create an empty array to store previous guesses
+
+While the number of turns is greater than 0 and the player hasn't guessed the correct number:
+    Prompt the player to enter a guess
+    If the guess is correct:
+        Display a message saying they guessed correctly
+        Break out of the loop
+    Else if the guess is too low:
+        Display a message saying the guess was too low
+    Else:
+        Display a message saying the guess was too high
+    Add the guess to the array of previous guesses
+    Display the array of previous guesses
+    Decrement the number of turns
+
+If the player ran out of turns:
+    Display a message saying they ran out of turns
+    Reveal the correct number
+
+Ask the player if they want to play again
+If yes, reset the game and start over
+If no, end the game
+
+
+
+You can use JavaScript's built-in functions like Math.random() to generate the random number, prompt() to get input from the player, and console.log() to display messages. You'll also need to use control structures like if statements, loops, and arrays to implement the game logic.
+
+Feel free to modify the game rules or add additional features as you see fit. This exercise will help you practice various JavaScript concepts, including variables, control structures, arrays, and user input/output.
+
+
+
