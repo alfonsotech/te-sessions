@@ -50,16 +50,11 @@
 // console.log(numbers); // Output: [1, 2, 'a', 'b', 4, 5]
 
 //indexOf()
-// let numbers = [1, 2, 3, 4, 5];
-// console.log(numbers.indexOf(3)); // Output: 2
-// console.log(numbers.indexOf(6)); // Output: -1 //; falsey
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers.indexOf(3)); // Output: 2
+console.log(numbers.indexOf(6)); // Output: -1 //; falsey
 
 //Multi-dimensional arrays
-// let nestedArray = [
-//   ["apple", "banana", "orange"],
-//   ["red", "green", "blue"],
-//   [1, 2, 3, 4, 5],
-// ];
 
 // console.log(nestedArray[0]); // Output: ['apple', 'banana', 'orange']
 // console.log(nestedArray[0][0]); // Output: 'apple'
@@ -67,5 +62,21 @@
 // console.log(nestedArray[2][3]); // Output: 4
 
 //Iterate over array with a for loop
+
+let nestedArray = [
+  ["apple", "banana", "orange"],
+  ["red", "green", "blue"],
+  [1, 2, 3, 4, 5],
+];
+
+// let lengthOfArray = 3
+for (let i = 0; i < 3; i++) {
+  nestedArray[i].push("red");
+
+  for (let j = 0; j < nestedArray[i].length; j++) {
+    nestedArray[i][j] = nestedArray[i][j] + 35;
+  }
+}
+console.log("nestedArray after for loop", nestedArray);
 
 //string and string methods
