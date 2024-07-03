@@ -1,4 +1,23 @@
 //OBJECTS
+// Objects Review
+const object1 = {
+  name: "John Doe",
+  age: 30,
+  city: "New York",
+  address: {
+    street: "123 Main St",
+    city: "New York",
+    state: "NY",
+    country: "USA",
+  },
+  greet: function () {
+    console.log(`Hello, my name is ${this.name}.`);
+  }, //method
+};
+
+console.log(object1);
+
+
 
 // Creating Object Literals
 const myObject = {}; //mutable data type
